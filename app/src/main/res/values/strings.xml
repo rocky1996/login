@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="home">首页</string>
+    <string name="kecheng">课程</string>
+    <string name="sousuo">搜索</string>
+    <string name="jiangshi">讲师</string>
+    <string name="wode">我的</string>
+</resources>
