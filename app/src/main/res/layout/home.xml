@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:id="@+id/home_ad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:paddingBottom="7dip"
+            android:paddingTop="7.0dip">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/photo1"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/photo2"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/photo3"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/photo4"
+                android:scaleType="centerInside" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="最近更新的课程"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:textSize="22dip"
+        android:textStyle="bold"
+        android:paddingLeft="15dip"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dip">
+            <TextView
+                android:id="@+id/zj1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="基础Java课程1"
+                android:textColor="#000000"
+                android:textSize="20dip" />
+            <TextView
+                android:id="@+id/zj2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="基础Java课程2"
+                android:textColor="#000000"
+                android:textSize="20dip"
+                android:layout_below="@id/zj1"/>
+            <TextView
+                android:id="@+id/zj3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="基础Java课程3"
+                android:textColor="#000000"
+                android:textSize="20dip"
+                android:layout_below="@id/zj2"/>
+        </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="推荐课程"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:textSize="22dip"
+        android:textStyle="bold"
+        android:paddingLeft="15dip"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dip">
+
+        <TextView
+            android:id="@+id/tj1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Java核心技术卷1"
+            android:textColor="#000000"
+            android:textSize="20dip" />
+        <TextView
+            android:id="@+id/tj2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Java核心技术卷2"
+            android:textColor="#000000"
+            android:textSize="20dip"
+            android:layout_below="@id/tj1"/>
+        <TextView
+            android:id="@+id/tj3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Java核心技术卷3"
+            android:textColor="#000000"
+            android:textSize="20dip"
+            android:layout_below="@id/tj2"/>
+
+    </RelativeLayout>
+</LinearLayout>
